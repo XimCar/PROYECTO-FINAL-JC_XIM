@@ -1,6 +1,15 @@
 .header{
-    background-color: bisque;
+    background-color: rgb(141, 139, 137);
 }
-.container{
-    background-color: aqua;
+body{
+    background: url(../imgsUtiles/fondo.webp);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+h1{
+    background-color: beige;
+}
+#logo{
+    width: auto;
+    height: auto;
 }
