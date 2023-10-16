@@ -4,9 +4,6 @@
     height: 70%;
     top: 0; left: 0;
 }
-.container{
-    background-color: rgb(171, 241, 241);
-}
 
 body{
     background: url(../imgsUtiles/fondo.webp);
@@ -25,6 +22,7 @@ h2{
 h3{
     font-family:serif
 }
+
 #logo{
     width: auto;
     height: auto;
@@ -49,4 +47,57 @@ h1{
     width: 5%;
     height: auto;
 }
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.lista-principal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista-principal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration:none
+}
+
+.lista-principal > li:hover{
+    background-color: red
+}
+
+.menu-despliegue{
+    position: absolute;
+    display: none;
+    list-style:none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 5);
+}
+
+.lista-principal li:hover .menu-despliegue{
+    display: block;
+}
+
+.menu-despliegue li:hover{
+    background-color: black;
+}
+
+.menu-despliegue li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+
+
+
+
 
