@@ -8,7 +8,8 @@
 body{
     background: url(../imgsUtiles/fondo.webp);
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 h1{
@@ -49,8 +50,7 @@ h1{
 }
 
 nav{
-    max-width: 900px;
-    margin: auto;
+    width: 20%;
     background-color: #333;
     font-size: 20px;
     margin-top: 50px;
@@ -58,8 +58,7 @@ nav{
 
 .lista-principal{
     list-style: none;
-    display: flex;
-    justify-content: space-around;
+    display: inline;
 }
 
 .lista-principal > li > a{
