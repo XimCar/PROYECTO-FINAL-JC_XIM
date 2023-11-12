@@ -3,19 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse</title>
+    <title>Iniciar Sesion</title>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../imgsUtiles/Icono.PNG" type="image/x-icon">
 </head>
 <body>
-    <header class="header">
-        <div>
-            <img src="../imgsUtiles/Logo.PNG" alt="Logo">
-            <h1>Laboratorio Clinico XimCar</h1>
-        <p><em>Juntos por tu salud, resultados confiables y precisos</em></p>
+    <form class="form">
+        <h2 class="form__title">Registro</h2>
+    <div class="form__container">
+        <div class="form__group">
+            <input type="text" id="name" class="form__input" placeholder=" ">
+            <label for="name" class="form__label">Nombres:</label>
+            <span class="form__line"></span>
         </div>
-        <div>
-            <form action=""></form>
+        
+        <div class="form__group">
+            <input type="text" id="lastname" class="form__input" placeholder=" ">
+            <label for="lastname" class="form__label">Apellidos:</label>
+            <span class="form__line"></span>
         </div>
+        
+        <div class="form__group">
+            <input type="email" id="email" class="form__input" placeholder=" ">
+            <label for="email" class="form__label">Usuario:</label>
+            <span class="form__line"></span>
+        </div>
+
+            <div class="form__group">
+                <input type="password" id="password" class="form__input" placeholder=" ">
+                <label for="password" class="form__label">Contraseña:</label>
+                <span class="form__line"></span>
+            </div>
+            <p>Seleccione su genero</p>
+        <!--<label for="femenino" class="form__label">Femenino</label>
+        <input type="radio" name="option" id="femenino" value="femenino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="option" id="masculino" value="masculino">
+        <label for="otro" class="form__label">Otro</label>
+        <input type="radio" name="option" id="otro" value="otro">-->
+            <input type="submit" class="form__submit" value="Entrar">
+    </div>
 </body>
 </html>
+    </form>

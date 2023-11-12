@@ -1,3 +1,7 @@
+@import url(iniciasesion.css);
+@import url(servicios.css);
+@import url(quienessomos.css);
+@import url(menu.css);
 .header{
     background-color: rgb(141, 139, 137);
     width: 65%;
@@ -12,6 +16,13 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+}
+
+#contenedorPrincipal{
+    background-color: gainsboro;
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
 }
 
 h1{
@@ -40,6 +51,7 @@ section{
     margin: auto;
     border-style:groove;
 }
+
 #untitle{
     text-align: center;
 }
@@ -60,7 +72,7 @@ section{
     height: auto;
 }
 
-nav{
+/*nav{
     width: 20%;
     background-color: #333;
     font-size: 20px;
@@ -70,6 +82,7 @@ nav{
 .lista-principal{
     list-style: none;
     display: inline;
+    text-align: center;
 }
 
 .lista-principal > li > a{
@@ -104,12 +117,18 @@ nav{
     color: white;
     padding: 15px 15px 15px 20px;
     text-decoration: none;
-}
+}*/
 
 footer{
     background-color: bisque;
     width: 100%;
     height: 8%;
+}
+
+@media (max-width:480px) {
+    body{
+        font-size: 90%;
+    }
 }
 
 
