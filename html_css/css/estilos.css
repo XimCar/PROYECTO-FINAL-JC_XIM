@@ -2,13 +2,18 @@
 @import url(servicios.css);
 @import url(quienessomos.css);
 @import url(menu.css);
+@import url(reseñas.css);
+@import url(inicio.css);
+@import url(registro.css);
+
 .header{
     background-color: rgb(141, 139, 137);
     width: 65%;
-    height: 70%;
-    text-align: center;
+    height: auto;
     margin: 0 auto;
     top: 0; left: 0;
+    box-shadow: 2px 0px 10px;
+    margin-top: 10px;
 }
 
 body{
@@ -18,8 +23,12 @@ body{
     background-attachment: fixed;
 }
 
-#contenedorPrincipal{
-    background-color: gainsboro;
+.header p{
+    background-color: blanchedalmond;
+}
+
+.contenedorPrincipal{
+    background-color: rgb(192, 176, 176);
     width: 65%;
     height: auto;
     margin: 0 auto;
@@ -46,7 +55,7 @@ section{
     background-color: rgb(96, 178, 255);
     color: black;
     background-position: 5%;
-    width: 50%;
+    width: 45%;
     height: auto;
     margin: auto;
     border-style:groove;
@@ -56,11 +65,6 @@ section{
     text-align: center;
 }
 
-.info-servicios{
-    border-color: black;
-    border-style:double;
-}
-
 .reseñas{
     border-color: black;
     border-style:double;
@@ -68,67 +72,16 @@ section{
 
 .reseñas__photo{
     border-radius: 1cm;
-    width: 5%;
+    width: 12%;
     height: auto;
 }
 
-/*nav{
-    width: 20%;
-    background-color: #333;
-    font-size: 20px;
-    margin-top: 50px;
-}
-
-.lista-principal{
-    list-style: none;
-    display: inline;
-    text-align: center;
-}
-
-.lista-principal > li > a{
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    text-decoration:none
-}
-
-.lista-principal > li:hover{
-    background-color: red
-}
-
-.menu-despliegue{
-    position: absolute;
-    display: none;
-    list-style:none;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 5);
-}
-
-.lista-principal li:hover .menu-despliegue{
-    display: block;
-}
-
-.menu-despliegue li:hover{
-    background-color: black;
-}
-
-.menu-despliegue li a{
-    display: block;
-    color: white;
-    padding: 15px 15px 15px 20px;
-    text-decoration: none;
-}*/
-
 footer{
     background-color: bisque;
-    width: 100%;
-    height: 8%;
-}
-
-@media (max-width:480px) {
-    body{
-        font-size: 90%;
-    }
+    width: 65%;
+    text-align: center;
+    margin-top: -5.5%;
+    margin: 0 auto;
 }
 
 

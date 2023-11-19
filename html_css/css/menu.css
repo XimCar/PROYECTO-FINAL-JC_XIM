@@ -1,26 +1,22 @@
-/*body{
+.container{
+    width: 200px;
+    background: #1e1e1e;
     display: flex;
     min-height: 100vh;
-    margin: 0;
     gap: 30px;
+    margin-top: -535px;
 }
 
-.container{
-    width: 200px;
-    background: #1e1e1e;
-}*/
-
-.container{
-    width: 200px;
-    background: #1e1e1e;
-    display: flex;
-    min-height: 100vh;
-    gap: 30px;
-    margin-top: -350px;
+.link-ingreso{
+    text-decoration: none;
+    color:aliceblue;
+    background-color: rgb(77, 71, 71);
+    margin: 85%;
+    padding: .3em;
 }
 
 nav{
-    width: 170px;
+    width: 200px;
     font-size: 20px;
     margin-top: 50px;
 }

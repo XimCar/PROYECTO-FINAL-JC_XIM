@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400;700 & display=swap');
+/*@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400;700 & display=swap');*/
 
 *{
     margin: 0;
@@ -79,15 +79,21 @@ body{
     transition: transform .5s, color .3s;
 }
 
-.form__submit{
+.form__button{
     background: #3866f2;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     padding: .8em 0;
+    text-decoration: none;
     border: none;
     border-radius: .5em;
+}
+
+.form__button a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .form__line{

@@ -1,0 +1,18 @@
+.descripcion{
+    background-color: rgb(80, 183, 214);
+    margin-bottom: -15px;
+    margin: auto;
+    width: 45%;
+    padding: 2em;
+}
+
+#caracteristicas > li{
+    text-decoration: none;
+}
+
+#caracteristicas{
+    background-color:  rgb(80, 183, 214);
+    margin: 25px;
+    width: 70%;
+    margin: auto;
+}

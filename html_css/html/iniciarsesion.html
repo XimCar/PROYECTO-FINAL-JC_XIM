@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../imgsUtiles/Icono.PNG" type="image/x-icon">
 </head>
 <body>
+    <script src="/Java/iniciarsesion.js"></script>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br>
     <form class="form">
@@ -15,16 +16,21 @@
     <p class="form__parrafo">¿Aun no tienes una cuenta? <a href="registrarse.html" class="form_link">Entra aqui</a></p>
     <div class="form__container">
         <div class="form__group">
-            <input type="email" id="email" class="form__input" placeholder=" ">
-            <label for="email" class="form__label">Usuario:</label>
+            <input type="email" id="correoLogin" class="form__input" placeholder=" ">
+            <label for="correoLogin" class="form__label">Usuario:</label>
             <span class="form__line"></span>
         </div>
         <div class="form__group">
-            <input type="password" id="password" class="form__input" placeholder=" ">
-            <label for="password" class="form__label">Contraseña:</label>
+            <input type="password" id="contrasenaLogin" class="form__input" placeholder=" ">
+            <label for="contrasenaLogin" class="form__label">Contraseña:</label>
             <span class="form__line"></span>
         </div>
-        <input type="submit" class="form__submit" value="Entrar">
+        <button id="button__iniciasesion" onclick="iniciarSesion()">Iniciar Sesión</button>
+        <p id="mensajeError"></p>
+        <div id="usuarioLogueado" style="display: none;">
+            <p>Bienvenido, <span id="nombreUsuario"></span>!</p>
+            <button onclick="cerrarSesion()">Cerrar Sesión</button>
+        </div>
 </body>
 </html>
     
