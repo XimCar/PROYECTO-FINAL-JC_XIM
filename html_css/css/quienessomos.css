@@ -1,5 +1,55 @@
-.quienesomos{
-    width: 45%;
-    background-color:  rgb(80, 183, 214);
+.contenedorPrincipal4{
+    background-image: url(../imgsUtiles/principal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 65%;
+    height: auto;
     margin: auto;
+}
+
+.quienesomos1{
+    padding: 40px;
+    background-color: rgb(124, 229, 243);
+    width: 90%;
+    margin: auto;
+}
+
+.quienesomos1 #vision{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+}
+
+#vision{
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+#vision:hover{
+    transform: scale(1.1);
+}
+
+.quienesomos2{
+    padding: 40px;
+    background-color: rgb(205, 214, 214);
+    width: 90%;
+    margin: auto;
+}
+
+.quienesomos2 #mision{
+    float: right;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 40%;
+}
+
+#mision{
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+#mision:hover{
+    transform: scale(1.1);
 }

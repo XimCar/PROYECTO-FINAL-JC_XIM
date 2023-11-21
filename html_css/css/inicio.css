@@ -1,18 +1,35 @@
+.contenedorPrincipal3{
+    background-image: url(../imgsUtiles/principal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+
 .descripcion{
     background-color: rgb(80, 183, 214);
     margin-bottom: -15px;
     margin: auto;
-    width: 45%;
+    width: 80%;
     padding: 2em;
 }
 
-#caracteristicas > li{
-    text-decoration: none;
+.descripcion #descripcion__img{
+    float:right;
+    padding-left: 30px;
+    width: 35%;
 }
 
-#caracteristicas{
-    background-color:  rgb(80, 183, 214);
+#caracteristicas li{
+    list-style: inside;
+}
+
+ #caracteristicas{
+    background-color: rgb(191, 202, 202);
     margin: 25px;
-    width: 70%;
+    width: 80%;
     margin: auto;
+    padding: 20px;
 }

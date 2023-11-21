@@ -7,7 +7,7 @@
 @import url(registro.css);
 
 .header{
-    background-color: rgb(141, 139, 137);
+    background: url(../imgsUtiles/cabecera.webp);
     width: 65%;
     height: auto;
     margin: 0 auto;
@@ -23,19 +23,45 @@ body{
     background-attachment: fixed;
 }
 
+.header h1{
+    width: 72%;
+    margin: auto;
+    font-size: 45px;
+    background-color: rgb(103, 198, 221);
+}
+
+.header #header__logo{
+    width: 11.5%;
+    margin: 5px;
+    float:left;
+    border-radius: 1em;
+    border-style:inset;
+}
+
 .header p{
-    background-color: blanchedalmond;
+    background-color: rgb(103, 198, 221);
+    width: 50%;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.link-ingreso{
+    text-decoration: none;
+    color:aliceblue;
+    background-color: rgb(77, 71, 71);
+    margin: 85%;
+    padding: .3em;
 }
 
 .contenedorPrincipal{
-    background-color: rgb(192, 176, 176);
+    background-image: url(../imgsUtiles/principal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     width: 65%;
     height: auto;
-    margin: 0 auto;
-}
-
-h1{
-    background-color: beige;
+    margin: auto;
 }
 
 h2{
@@ -46,43 +72,71 @@ h3{
     font-family:serif
 }
 
-
 h1{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.contenedorPrincipal img{
+    float:left;
+    padding-right: 10px;
+    width: 29%;
+}
+
 section{
-    background-color: rgb(96, 178, 255);
+    background-color: rgb(124, 229, 243);
     color: black;
     background-position: 5%;
-    width: 45%;
+    width: 80%;
     height: auto;
     margin: auto;
     border-style:groove;
+    transition: 0.5s;
+    object-fit: cover;
 }
 
-#untitle{
-    text-align: center;
+section:hover{
+    transform: scale(1.1);
 }
 
-.reseñas{
-    border-color: black;
-    border-style:double;
+.contenedorPrincipal #necesidad{
+    background-color: azure;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
 }
 
-.reseñas__photo{
-    border-radius: 1cm;
-    width: 12%;
-    height: auto;
+.contenedorPrincipal #ofrecemos{
+    background-color: rgb(191, 202, 202);
+    width: 80%;
+    margin: auto;
+}
+
+#ofrecemos .ofrecemos__ofrecimientos{
+    background-color: rgb(124, 229, 243);
+    width: 30%;
+    border-color: rgb(191, 202, 202);
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    transition: 0.5s;
+    object-fit: cover;
+    cursor:pointer;
+}
+.ofrecemos__ofrecimientos:hover{
+    transform: scale(1.1);
 }
 
 footer{
     background-color: bisque;
-    width: 65%;
+    width: 100%;
     text-align: center;
     margin-top: -5.5%;
     margin: 0 auto;
+    padding: 15px;
 }
+
 
 
 

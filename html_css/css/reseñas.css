@@ -1,10 +1,38 @@
+.contenedorPrincipal5{
+    background-image: url(../imgsUtiles/principal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+
+.reseñas .reseñas__photo{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+    }
+
 .reseñas{
     background-color: #d7f1ed;
     padding: 30px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 3em;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 30%;
     height: auto;
     margin: auto;
+}
+
+.reseñas{
+    border-color: black;
+    border-style:double;
+}
+
+.reseñas__photo{
+    border-radius: 15em;
+    width: 12%;
+    height: auto;
 }

@@ -1,3 +1,13 @@
+.contenedorPrincipal2{
+    background-image: url(../imgsUtiles/principal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+
 .info-servicios{
     background-color: #d7f1ed;
     padding: 30px;
@@ -8,15 +18,14 @@
     margin: auto;
 }
 
-#contenedor-principal{
-    border: solid 1px blue;
-    margin: 10px;
+.info-servicios img{
+    width: 100%;
+    margin: auto;
 }
 
-.header{
-    background-color: rgb(141, 139, 137);
-    width: 65%;
-    height: 70%;
-    margin: 0 auto;
-    top: 0; left: 0;
+/*.contenedorPrincipal2 .info-servicios{
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
 }
