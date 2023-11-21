@@ -46,6 +46,7 @@ body{
     font-size: 20px;
 }
 
+
 :root{
     --sletras:54;
     --wletras:54ch;
@@ -63,8 +64,6 @@ span{
 
     animation: typing 5s steps(var(--sletras))infinite
     alternate-reverse;
-    /*blink .5s infinite step-end alternate;
-    overflow: hidden;*/
 }
 
 @keyframes typing {
@@ -72,18 +71,22 @@ span{
     to{width:var(--wletras);}
 } 
 
-/*@keyframes blink{
-    50%{border-color: transparent;}
-}*/
-
-
-.link-ingreso{
+.header a{
     text-decoration: none;
     color:aliceblue;
     background-color: rgb(77, 71, 71);
     margin: 85%;
-    padding: .3em;
+    padding: .7em;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border-radius: 12px;
 }
+
+.header a:hover{
+    color:darkgrey;
+}
+
 
 .contenedorPrincipal{
     background-image: url(../imgsUtiles/principal.jpg);

@@ -1,7 +1,6 @@
 .container{
     width: 200px;
     background: #1e1e1e;
-    /*display: flex;*/
     min-height: 100vh;
     gap: 30px;
     margin-top: -1099px;
@@ -39,7 +38,7 @@ nav{
 }
 
 .menu-despliegue li:hover{
-    background-color: black;
+    background-color: rgb(173, 213, 245)
 }
 
 .menu-despliegue li a{
