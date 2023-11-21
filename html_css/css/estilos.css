@@ -40,11 +40,42 @@ body{
 
 .header p{
     background-color: rgb(103, 198, 221);
-    width: 50%;
+    width: 40%;
     margin: auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
+:root{
+    --sletras:54;
+    --wletras:54ch;
+}
+
+span{
+    display: block;
+    font-family: monospace;
+    font-size: large;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 54ch;
+    margin: auto;
+
+    animation: typing 5s steps(var(--sletras))infinite
+    alternate-reverse;
+    /*blink .5s infinite step-end alternate;
+    overflow: hidden;*/
+}
+
+@keyframes typing {
+    from{width: 0;};
+    to{width:var(--wletras);}
+} 
+
+/*@keyframes blink{
+    50%{border-color: transparent;}
+}*/
+
 
 .link-ingreso{
     text-decoration: none;
@@ -66,10 +97,6 @@ body{
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h3{
-    font-family:serif
 }
 
 h1{
@@ -136,6 +163,7 @@ footer{
     margin: 0 auto;
     padding: 15px;
 }
+
 
 
 

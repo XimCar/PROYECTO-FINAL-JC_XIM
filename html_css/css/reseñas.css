@@ -6,6 +6,8 @@
     width: 65%;
     height: auto;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .reseñas .reseñas__photo{
@@ -24,6 +26,8 @@
     width: 30%;
     height: auto;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .reseñas{

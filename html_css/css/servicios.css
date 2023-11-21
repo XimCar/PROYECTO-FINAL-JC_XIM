@@ -6,6 +6,8 @@
     width: 65%;
     height: auto;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .info-servicios{
@@ -15,6 +17,8 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 30%;
     height: auto;
+    display: block;
+    margin-bottom: 20px;
     margin: auto;
 }
 
@@ -22,6 +26,7 @@
     width: 100%;
     margin: auto;
 }
+
 
 /*.contenedorPrincipal2 .info-servicios{
     float: right;
